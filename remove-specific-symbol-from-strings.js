@@ -17,3 +17,4 @@ function remove (string) {
   }else{
     return result
   }
+}

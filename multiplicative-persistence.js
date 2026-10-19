@@ -15,3 +15,8 @@ function persistence(num) {
     
     return count;
 }
+
+/* 1. turn num into stringS
+2. split by space
+3. reduce method takes accumulator (given) and multiplies it by "digit"(current value). The 1. An initialValue (Optional but highly recommended): The starting point for the accumulator.
+*/

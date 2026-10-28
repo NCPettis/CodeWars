@@ -28,3 +28,8 @@ function sumArray(array) {
   return sorted.reduce((sum, num) => sum + num, 0);
 
 }
+
+//ADDITIONAL SOLUTION
+
+const sumArray = array =>
+  array ? array.sort((a, b) => a - b).slice(1, -1).reduce((pre, val) => pre + val, 0) : 0;

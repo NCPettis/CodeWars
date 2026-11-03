@@ -22,6 +22,7 @@ let twoSum = function(nums, target) {
         }
 
     }
+}
 
 ///Map Object Method more efficient!
 /**
